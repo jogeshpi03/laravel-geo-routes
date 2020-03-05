@@ -171,7 +171,7 @@ class CallbackRegistrar
         throw new InvalidArgumentException(sprintf(
             "%s expects parameter 1 to be string or callable %s given",
             __FUNCTION__,
-            get_class($callback),
+            get_class($callback)
         ));
     }
 

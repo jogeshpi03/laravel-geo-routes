@@ -19,7 +19,7 @@ class CallbackRegistrar
 
     /**
      * The default callback and its arguments.
-     * 
+     *
      * @var array
      */
     protected $default = [[Callbacks::class, 'unauthorized'], []];
